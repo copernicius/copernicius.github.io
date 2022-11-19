@@ -4,39 +4,19 @@
   
   
   <entry>
-    <title>《暗时间》阅读</title>
+    <title>从《暗时间》开始</title>
     <link href="/2022/11/19/%E3%80%8A%E6%9A%97%E6%97%B6%E9%97%B4%E3%80%8B%E9%98%85%E8%AF%BB/"/>
     <url>/2022/11/19/%E3%80%8A%E6%9A%97%E6%97%B6%E9%97%B4%E3%80%8B%E9%98%85%E8%AF%BB/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<h1>Premise</h1><p> 半年前无意划伤眼睛，度过了半年睡梦中常常被疼醒的夜晚，加上此前熬夜几年的“功劳”，finally，我有点神经衰弱了。最开始的迹象，是我发现会经常忘掉一些名字以及此前熟悉的概念，但却不以为然，因为没有影响到生活。</p><p> 直到某个时间节点，在某个会议上想要发表观点，但脑子一片空白，虽然之前我也不擅表达，但绝不会有一片空白的事情发生。然后，后面发现专注力就像是撒了绳的柴犬一般，转瞬即无，无法静下来玩一些剧情向的游戏，无法静下来看半个小时的书本，无法静下来对一个问题进行深入的思考，对家人和朋友，也没有了往日的耐心。取而代之的是，只能看一些技术短文、看一些短视频、玩农药这样的15min一把的游戏、工作的时候总想着微信和QQ是不是有消息。</p><p>后果是，工作上无法专注，已经排期的事情无法如期完成，于是自责、焦虑、也少了一些自信。生活上，因为工作上的一些落差，以及失去了耐性，我无法去沉浸地感受那些美好的时刻，也没办法去和他人共情（不是没有共情能力，是没办法分配耐心和注意力，在他人身上）。</p><p>Anyway，I’m at a low point of my life. 这未必是件坏事，起码这引发了反省（说不定我出生就在低谷呢？😱）。接着我在网上看看有没有类似的经历，像一个溺水者去寻找一个可以浮起的木块，无意间看到《暗时间》这本书，感受颇多，虽然刚毕业那会也看过，可能由于经历浅薄，没法与作者产生共鸣吧。</p><p>借此，我也开始写写blog，记录一下生活，总结一下思考~</p>]]></content>
     
     
     
-  </entry>
-  
-  
-  
-  <entry>
-    <title>linux_call_convention</title>
-    <link href="/2022/10/26/linux-call-convention/"/>
-    <url>/2022/10/26/linux-call-convention/</url>
-    
-    <content type="html"><![CDATA[]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="/2022/10/26/hello-world/"/>
-    <url>/2022/10/26/hello-world/</url>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
+    <tags>
+      
+      <tag>碎碎念</tag>
+      
+    </tags>
     
   </entry>
   
