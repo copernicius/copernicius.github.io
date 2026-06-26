@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Reflection - System Design Process</title>
+      <link href="/2026/04/20/system-design-process/"/>
+      <url>/2026/04/20/system-design-process/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>For a long time I sat on the other side of the table. I interviewed a lot of candidates on system design, and the pattern was consistent: the ones who struggled had no frame to hang the problem on. They’d dive straight into databases or microservices and then get lost. The ones who did well slowed down and worked through the problem in an order that made sense.</p><p>I ended up on the interviewee side recently, and I wanted a process I could actually follow. The infographic is what I landed on.</p></blockquote><p>Six phases, roughly 10 minutes each, totalling about an hour.</p><p><img src="/images/system_design_process.png" alt="Whole picture"></p><h2 id="👔Step-1-business-use-cases-10-min"><a href="#👔Step-1-business-use-cases-10-min" class="headerlink" title="👔Step 1: business use cases (10 min)"></a>👔Step 1: business use cases (10 min)</h2><p>Before any technical decision, understand the problem.</p><p>Who are the users? What are they actually trying to do? What does “working” look like?</p><p>This is the easiest step to skip and the hardest to recover from. If you get the use cases wrong, you’ll end up with something architecturally coherent that solves the wrong problem. Interviewers notice when candidates jump straight to components. The ones who do well ask questions first.</p><h2 id="🦾Step-2-constraints-10-min"><a href="#🦾Step-2-constraints-10-min" class="headerlink" title="🦾Step 2: constraints (10 min)"></a>🦾Step 2: constraints (10 min)</h2><p>Once you know what, figure out how much.</p><p>What’s the expected QPS? What latency does the use case actually need? How much data? What’s the availability target?</p><p>Don’t skip budget, timeline, or compliance. Real systems have real limits. Stating constraints explicitly gives you something to point back to when you make trade-offs later.</p><h2 id="🏰Step-3-architecture-10-min"><a href="#🏰Step-3-architecture-10-min" class="headerlink" title="🏰Step 3: architecture (10 min)"></a>🏰Step 3: architecture (10 min)</h2><p>Now draw the high-level picture.</p><p>What are the major components? Where are the boundaries? What technology are you choosing, and why? Walk through the data flow.</p><p>This doesn’t need to be a final production design. It needs to be a coherent skeleton that can hold up to questions. Show that you can decompose a complex system into parts someone else can follow.</p><h2 id="⌨️Step-4-API-design-10-min"><a href="#⌨️Step-4-API-design-10-min" class="headerlink" title="⌨️Step 4: API design (10 min)"></a>⌨️Step 4: API design (10 min)</h2><p>With the architecture sketched, define the contracts between components.</p><p>What are the key endpoints? What do requests and responses look like? How do you handle auth, errors, versioning?</p><p>Candidates often get vague here. Interviewers who’ve worked in production know that badly designed APIs cause pain for years. Be specific.</p><h2 id="📊Step-5-database-choice-10-min"><a href="#📊Step-5-database-choice-10-min" class="headerlink" title="📊Step 5: database choice (10 min)"></a>📊Step 5: database choice (10 min)</h2><p>Pick the right storage layer, and explain why.</p><p>SQL or NoSQL depends on your data model, access patterns, and consistency requirements. Talk about sharding, indexing, caching, failure handling.</p><p>The point isn’t to always reach for the same tool. It’s to show you can reason about trade-offs: read-heavy vs write-heavy, strong vs eventual consistency. Rattling off database names without that reasoning doesn’t go far.</p><h2 id="📀Step-6-data-model-10-min"><a href="#📀Step-6-data-model-10-min" class="headerlink" title="📀Step 6: data model (10 min)"></a>📀Step 6: data model (10 min)</h2><p>Finally, get concrete about the data.</p><p>Define your entities and their relationships. Specify primary keys and indexes. Think about what happens to the schema at scale.</p><p>A well-thought-out data model often exposes assumptions from earlier steps that don’t hold up. That’s a good sign. Going back and revising shows you’re thinking through the problem, not filling out a template.</p><p><img src="/images/system_design_process_2.png"></p><h2 id="Wrapping-up"><a href="#Wrapping-up" class="headerlink" title="Wrapping up"></a>Wrapping up</h2><blockquote><p>Keep it simple, communicate clearly, iterate and refine.</p></blockquote><p>That’s mostly it. The interview isn’t asking whether you know every database or can sketch the perfect architecture in 10 minutes. It’s asking whether you can navigate an open-ended problem without losing the thread.</p><p>The six steps are a scaffold, not a script. Practice it enough that it becomes automatic. Then the mental energy you’re not spending on process can go toward the parts of the problem that are actually hard.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> System Design </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> System Design </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>The Silent Performance Killer - False Sharing in C++</title>
       <link href="/2026/03/02/false-sharing/"/>
       <url>/2026/03/02/false-sharing/</url>
