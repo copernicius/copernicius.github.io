@@ -4,11 +4,38 @@
   
     
     <entry>
+      <title>Do you really master LRU?</title>
+      <link href="/2026/07/09/different-lru/"/>
+      <url>/2026/07/09/different-lru/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>One day I ran into a weird performance issue when tunning the ring buffer module of a high performance C++ RPC framework.</p></blockquote><h1 style="color:#2E86AB">TL;DR</h1>- `False sharing` occurs when multiple threads access and modify variables that reside on the same cache line, leading to a degradation in performance.- `False sharing` can be avoided by using padding or alignment to separate variables on different cache lines.<h1 style="color:#2E86AB">What's LRU?</h1>False sharing happens when threads modify variables that happen to live on the same cache line. The variables themselves are unrelated, but the cache line keeps bouncing between cores, invalidated over and over, and that's what kills the performance.<h1 style="color:#2E86AB">Put it simply by Feynman's Method</h1><h1 style="color:#2E86AB">Implementations</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> Back to basics </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Back to basics </tag>
+            
+            <tag> System Design </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Phone Detox Experiment</title>
       <link href="/2026/07/07/dopamine-detox/"/>
       <url>/2026/07/07/dopamine-detox/</url>
       
-        <content type="html"><![CDATA[<h1 style="color:#2E86AB">Before the experiment 🧠</h1>Actually, getting lost scrolling through my phone has been a common thing for many of us, especially in a modern world, where we are always connected with others through social media. High tech IT companies hire top talents to design delicated algorithms, striving to stick users to their product, and then make profits. Don't be guilty for that, it's not our fault. That being said, we still ought to view this matter objectively. Internet grant us access to abundant information, yet we should not get trapped by cognitive overload.So, I decided to try a phone detox experiment, help me discover a world that I could talk more with myself.<h1 style="color:#2E86AB">Experiment design</h1><p>As usual, here’s the 7-day plan of “Phone Detox Experiment”. I made this plan with ChatGPT based on my own experience. Hope I will follow the plan strictly🤣.<br><img src="/images/dopamine_detox/image1.png"></p><h1 style="color:#2E86AB">Daily note 🤔</h1><h3 id="Day-1"><a href="#Day-1" class="headerlink" title="Day 1"></a>Day 1</h3><blockquote><p>Target: Awareness - How often I reach for devices?</p></blockquote><p><strong>The day has just begun, I’m hoping to get off to great start💪. We’ll wait and see</strong> </p><div align="center">    <img src="/images/dopamine_detox/image2.jpg" width="50%" /></div><h1 style="color:#2E86AB">Conclusion🧑🏿‍💻</h1>]]></content>
+        <content type="html"><![CDATA[<h1 style="color:#2E86AB">Before the experiment 🧠</h1>Actually, getting lost scrolling through my phone has been a common thing for many of us, especially in a modern world, where we are always connected with others through social media. High tech IT companies hire top talents to design delicated algorithms, striving to stick users to their product, and then make profits. Don't be guilty for that, it's not our fault. That being said, we still ought to view this matter objectively. Internet grant us access to abundant information, yet we should not get trapped by cognitive overload.So, I decided to try a phone detox experiment, help me discover a world that I could talk more with myself.<h1 style="color:#2E86AB">Experiment design</h1><p>As usual, here’s the 7-day plan of “Phone Detox Experiment”. I made this plan with ChatGPT based on my own experience. Hope I will follow the plan strictly🤣.<br><img src="/images/dopamine_detox/image1.png"></p><h1 style="color:#2E86AB">Daily note 🤔</h1><h3 id="Day-1"><a href="#Day-1" class="headerlink" title="Day 1"></a>Day 1</h3><blockquote><p>Target: Awareness - How often I reach for devices?</p></blockquote><p><strong>The day has just begun, I’m hoping to get off to great start💪. We’ll wait and see</strong> </p><ul><li>11:30 – Shortly after I wrote down the plan, I felt the urge to scroll TikTok to check if I’d gotten any likes👍🏽. Bloody hell…</li></ul><div align="center">    <img src="/images/dopamine_detox/image2.jpeg" width="50%" /></div><h1 style="color:#2E86AB">Conclusion🧑🏿‍💻</h1>]]></content>
       
       
       <categories>
