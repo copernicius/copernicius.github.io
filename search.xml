@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>How to interpret CS concepts to mom?</title>
+      <link href="/2026/08/11/easy-buzz-word/"/>
+      <url>/2026/08/11/easy-buzz-word/</url>
+      
+        <content type="html"><![CDATA[<h1 style="color:#2E86AB">Interesting things</h1><blockquote><p>During my semesters in UoA, I’ve come across many times when my classmates ask me to explain a concept concept to them. I found that it’s always a challenge to explain a concept to someone who doesn’t have the same CS background as me. That’s so fun to think about these concepts and their corresponding metaphor.</p></blockquote><h1 style="color:#2E86AB">Fun metaphor</h1><blockquote><p>Here’s the list of what I tried to explain those concepts in a fun way. It’s not that absolutely correct, yet it provides a basic view of such concept.</p></blockquote><ul><li><p>Distributed System<br>“Lots of commodify computers work together”</p></li><li><p>Consensus Algorithm<br>“Multiple nodes agree with one thing, looks as if there’s only one node”</p></li><li><p>Consistency<br>“Whether the content is the same on all nodes, right after you write&#x2F;update the content”</p></li><li></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Back to basics </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Back to basics </tag>
+            
+            <tag> System Design </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Some thoughts on business understanding</title>
       <link href="/2026/08/03/biz-understanding/"/>
       <url>/2026/08/03/biz-understanding/</url>
